@@ -8,7 +8,7 @@ This is basically a datatype definition library with some nice additions.
 ## Basic usage
 ```
 var func = type() // create a new type function
-  .int.or(float)
+  .int.or(type().float)
   .int // second parameter is an integer
   .int.value(20) // third parameter maybe an optional int, with default value 20
   .ret(int.or(float))
